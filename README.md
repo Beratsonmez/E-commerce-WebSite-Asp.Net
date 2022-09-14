@@ -14,23 +14,3 @@ Listing, adding to cart and removing products on this site has been implemented
 </p>
 <h3 align="left">Database :</h3>
 <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40" /> </a>
-
-<br><br>
-<h2>Photo examples</h2>
-<br>
-<img src="public/image/klini1.png" style="height: 300px;" alt="">
-<img src="public/image/klini2.png" style="height: 300px;" alt="">
-<img src="public/image/klini3.png" style="height: 300px;" alt="">
-<img src="public/image/klini4.png" style="height: 300px;" alt="">
-
-<br><br>
-
-<h2>Responsive examples</h2>
-
-<br>
-<span>
-<img src="public/image/responsive 2.png" style="height: 300px;" alt="">
-<img src="public/image/responsive1.png" style="height: 300px;" alt="">
-<img src="public/image/responsive3.png" style="height: 300px;" alt="">
-    </span>
-
