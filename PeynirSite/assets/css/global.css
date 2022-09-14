@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/arkaplan.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    image-rendering: auto;
+    image-resolution: auto;
+    background-size: cover;
+}
+
+.card {
+    background-color: #333333;
+    color: white;
+}

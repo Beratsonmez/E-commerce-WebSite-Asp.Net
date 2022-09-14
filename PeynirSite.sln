@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeynirSite", "PeynirSite\PeynirSite.csproj", "{3DE7FFE1-8F73-47F2-B487-645A234E202A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DE7FFE1-8F73-47F2-B487-645A234E202A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DE7FFE1-8F73-47F2-B487-645A234E202A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DE7FFE1-8F73-47F2-B487-645A234E202A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DE7FFE1-8F73-47F2-B487-645A234E202A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F956CE9F-E3B9-41A0-9406-7707CA4A83CD}
+	EndGlobalSection
+EndGlobal

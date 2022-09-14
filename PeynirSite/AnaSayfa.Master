@@ -1,0 +1,237 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AnaSayfa.master.cs" Inherits="PeynirSite.AnaSayfa" %>
+
+<!doctype html>
+<html lang="tr">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="assets/images/cheeses.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;0,700;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Style -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/global.css">
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script src="assets/js/script2.js" defer></script>
+
+    <title>Bera Peynircilik</title>
+</head>
+
+<body>
+
+    <!-- Navbar 
+    ================================================== -->
+
+    <nav class="navbar">
+        <div class="brand-title">
+            <img id="navbar-img" src="assets/images/cheeses.png" style="height: 50px;">
+            Bera Peynircilik</div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="Default.aspx">Ana Sayfa</a></li>
+                <li><a href="Urunler.aspx">Ürünler</a></li>
+                <li><a href="Duyurular.aspx">Duyurular</a></li>
+                <li><a href="Hakkimizda.aspx">Hakkımızda</a></li>
+                <li class="nav-item pl-1">
+                    <a class="nav-link" href="Iletisim.aspx">İletişim</a>
+                </li>
+
+
+            </ul>
+        </div>
+
+    </nav>
+
+
+    <!-- Navbar End
+    ================================================== -->
+
+
+
+    <div class="container" id="content">
+
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner ">
+                <div class="carousel-item active">
+                    <img id="slider" class="d-block w-100 h-100" src="assets/images/peynirler.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img id="slider" class="d-block w-100 h-100 " src="assets/images/incirli.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img id="slider" class="d-block w-100 h-100" src="assets/images/peynirler2.jpg" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Slider End
+    ================================================== -->
+
+    <!-- Orta Kısım
+    ================================================== -->
+
+
+
+    <div class="container">
+
+
+        <div class="card">
+            <div class="card-body">
+                <h3 style="text-align: center;">Türkiye'nin En Büyük Manda Çiftliği</h3>
+                <br>
+                <p>
+                    
+
+Manda sütü; doğallığı ve faydasnın yanında, sabrı ve itibarı da simgeleyen bir değer.
+Uzun yıllar önce çıktığımız yolda bu değerin altında emek ve doğallığı sizlere ulaştırmak istedik.
+Çiftliğimizden gelen doğallığı, uzun yılların vermiş olduğu tecrübe ve ustalığımızla buluşturmaya karar verdik.
+Emek ve tecrübemizi en doğal ürünlerimizle mandıramızdan masanıza uzanan lezzet dolu bir yolculuğu başlattık.
+Bugün Türkiyenin en büyük manda çiftliğimizle geldiğimiz noktada mandacılık ve mandıracılık kültürünü
+doğal ve leziz ürünlerimizle mandıramızdan masanıze ulaştırıyoruz. 
+
+ 
+
+Mandıramızdan Masanıza
+
+Bize göre lezzetin ardındaki sır; günün doğuşu, yeşilin her tonudur.
+Sabırla ve aşkla, canla başla çalışmaktır. İçten gelir o ve 85 yıllık bir mirası anlatır.
+Bize göre lezzetin ardındaki sır, mutlu mandalardan gelen en doğal armağandır ve mandıramızdan masanıza uzanır....
+
+ 
+
+Türkiye`nin En Büyük Manda Çiftliği
+
+85 yıllık lezzet hikayesinde ürünlerinde hiçbir katkı maddesi kullanmayan,
+tadını manda sütünden alan Saray Muhallebicisi ürünlerinin “tatlı” sırrı kendi mandırasından geliyor.
+Mandacılık kültürünü yaşatmak için 2014 yılında İstanbul Silivri`de 210 dönümlük arazide kurulan mandıra,
+Türkiye`nin en büyük manda çiftliğidir.
+
+ 
+
+Mutlu Mandalardan Hediye...
+
+Lezzete tat katmak için tutkuyla çalışanların en doğal ödülüdür, Manda Sütü...
+Ve biz, günde 3,5 ton sütü kendi doğal ortamında en sağlıklı şekilde beslenen mutlu mandalardan elde ediyoruz.
+Bu ödülün kaynağının ise sıfır stres ve bol oksijenden geldiğini biliyoruz.
+Güne yeşilliğin ortasında uyanan ve kendi özgür alanları bulunan mandalardan özel bir tat sağlamak için özenle çalışıyoru
+                </p>
+                
+            </div>
+        </div>
+
+
+
+
+        <!-- Örnekler
+        ================================================== -->
+        <h2 style="text-align: center; color: white; background-color: rgb(52,58,64); border: 1px solid white; padding: 1rem; border-radius: 5px;">Duyurular</h2>
+        <div class="duyurular row">
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/images/extrakuf.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+
+            </asp:ContentPlaceHolder>
+
+        </div>
+
+
+
+
+        <div class="card mb-3 bg-dark text-light">
+            <img class="card-img-top" src="assets/images/bicakli.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h3 class="card-title">Peynir</h3>
+                <p class="card-text">
+                    Peynir, kelimesi modern Türkçeye Farsça sütten yapılmış manasına gelen panīr kelimesinden geçmiştir. İngilizceye ise Latince caseus dan gelmiştir. Bu kelimenin kökeninin Hint-Avrupa dillerinde yer alan mayalanmak-ekşimek manasına gelen kwat- kökünden geçtiği düşünülmektedir. Bu kelime diğer Cermen dillerinde de muhafaza edilmiştir. İspanyolca ve Portekizce de Latinceden almışlardır ve Malezya ve Endonezya da konuşulan dillere de keşifler vasıtasıyla geçirmişlerdir.
+
+Fransızca, İtalyanca ve Katalancaya ise yine aynı kökenden gelmiş olmasına ragmen, Romalılar tarafından askerlerin tüketimi için yapılan caseus formatus (kalıp peyniri) sözünün ikinci parçası olan kalıp manasına gelen formatus'dan türeyen kelimeler kullanılmaya başlanmıştır. İspanyolcada "queso", Portekizcede "queijo", Almancada "Käse", Felemenkçede "Kaas", ve İngilizcede "cheese" İtalyancada "formaggio" olması yanında, Fransızcada "fromage", ve bu terim Katalancada "formatge" olmuştur.
+
+İlk kez Memluk Türkçesinde benir, penir, beynir şekillerinde görülür. Yazılı olarak en eski Öztürkçe karşılığı ise Kâşgarlı Mahmud tarafından yazılan Divânu Lügati't-Türk'te geçmektedir; udma ve udhıtma.[1] Udhıtmak Uygur Türkçesi'nde uyutmak anlamındadır ve Udhıtma udhıttı, sütü uyutmak, uyumuş süt, peynir anlamında kullanılmıştır. Farklı Türk lehçelerinde farklı kelimeler kullanılmıştır: ağrımışık, sogut (Karluk), kurut, kesük, çökelek, bışlak.
+                </p>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!--- Footer --->
+    <footer class="bg-dark text-center text-light">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+
+                <!-- Google -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fa-brands fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(105, 105, 105, 0.2);">
+            © 2022 Copyright:
+            <a class="text-light" href="https://github.com/Beratsonmez">Berat Sönmez</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!--# Footer #-->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
